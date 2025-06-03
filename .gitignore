@@ -1,3 +1,9 @@
 # Ignore data directory and all its contents
 /data/
 /processed_fastmri_data/
+
+#Ignore all files in the .ipynb_checkpoints directory
+.ipynb_checkpoints/
+
+#Ignore all model checkpoints
+*.pth

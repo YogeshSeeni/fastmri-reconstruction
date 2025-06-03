@@ -1,0 +1,4 @@
+Model Name,Validation Loss,Validation PSNR (dB),Validation SSIM,Path
+SwinUNet_base64_final,0.03519527473716281,62.407065415502196,0.7273638073958225,./runs_swin_final/SwinUNet_FINAL_base64_ws8_lr8e-5_hds8_bs6_acc1/best_model.pth
+SwinUNet_base80_final,0.03561170127748245,62.311012469344405,0.7181928857234579,./runs_swin_final/SwinUNet_FINAL_base80_ws8_lr6e-5_hds10_bs4_acc2/best_model.pth
+UNet_baseline_best,0.04962129583909883,53.23109844341949,0.7133519818012938,./unet_baseline_single_experiment/UNet_chans32_l4_lr1e4_bs16_epochs50_wd1e4_baseline/best_model.pth

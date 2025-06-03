@@ -1,0 +1,2 @@
+run_name,config_suffix,best_val_loss,final_val_psnr,final_val_ssim,model_path,name_suffix,chans,num_pool_layers,lr,epochs,batch_size,acc_steps,weight_decay,frac
+UNet_chans32_l4_lr1e4_bs16_epochs50_wd1e4_baseline,chans32_l4_lr1e4_bs16_epochs50_wd1e4_baseline,0.04961954130224846,58.01078851977785,0.8255398519372624,unet_baseline_single_experiment/UNet_chans32_l4_lr1e4_bs16_epochs50_wd1e4_baseline/best_model.pth,chans32_l4_lr1e4_bs16_epochs50_wd1e4_baseline,32,4,0.0001,40,16,1,0.0001,1.0
