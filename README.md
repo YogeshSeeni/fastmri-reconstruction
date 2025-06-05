@@ -49,5 +49,5 @@ While the notebooks were developed in the fastMRI environment, they can run on a
 
 ## Results
 
-The best Swin U-Net models achieve validation PSNR above 62 dB and SSIM around 0.72, outperforming the baseline U-Net which reaches roughly 58 dB PSNR. Detailed numbers can be found in `all_models_comparison_summary.csv`.
+The best Swin U-Net models achieve validation PSNR above 33 dB and SSIM around 0.72, outperforming the baseline U-Net which reaches roughly 28 dB PSNR. Detailed numbers can be found in `all_models_comparison_summary.csv`.
 
