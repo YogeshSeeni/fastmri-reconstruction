@@ -1,9 +1,43 @@
-# Ignore data directory and all its contents
-/data/
-/processed_fastmri_data/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-#Ignore all files in the .ipynb_checkpoints directory
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-#Ignore all model checkpoints
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# PyTorch / model checkpoints
 *.pth
+*.pt
+checkpoints/
+models/
+weights/
+
+# HDF5, NIfTI, raw data, and MRI output files
+*.h5
+*.hdf5
+*.nii
+*.nii.gz
+data/
+raw_data/
+outputs/
+logs/
+results/
+scratch/
+
+# Backup and miscellaneous
+*.bak
+*.swp
+*.tmp
+
+# Packaging / distribution
+build/
+dist/
+*.egg-info/
